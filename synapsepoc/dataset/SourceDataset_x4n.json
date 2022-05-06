@@ -1,0 +1,149 @@
+{
+	"name": "SourceDataset_x4n",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldbserverdemoslp",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "vendorID",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "tpepPickupDateTime",
+				"type": "datetime2",
+				"precision": 27,
+				"scale": 7
+			},
+			{
+				"name": "tpepDropoffDateTime",
+				"type": "datetime2",
+				"precision": 27,
+				"scale": 7
+			},
+			{
+				"name": "passengerCount",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			},
+			{
+				"name": "tripDistance",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "puLocationId",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "tipAmount",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "tollsAmount",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "totalAmount",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "TripPickupDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "storeAndFwdFlag",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "paymentType",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "fareAmount",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "extra",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "mtaTax",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "improvementSurcharge",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "doLocationId",
+				"type": "varchar",
+				"precision": 0,
+				"scale": 0
+			},
+			{
+				"name": "startLon",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "startLat",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "endLon",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "endLat",
+				"type": "float",
+				"precision": 53,
+				"scale": 0
+			},
+			{
+				"name": "rateCodeId",
+				"type": "int",
+				"precision": 10,
+				"scale": 0
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NYTaxiTrip"
+		}
+	}
+}
